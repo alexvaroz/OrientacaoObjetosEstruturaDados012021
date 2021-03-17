@@ -49,12 +49,30 @@ namespace ExemploEncapsulamento
                 seLigado = false;
             }
             else
-                Console.WriteLine("O carro já está desligado!!");           
+                Console.WriteLine("O carro já está desligado!!");
         }
 
         public void Acelerar()
         {
+            if (seLigado)
+            {
+                if ((this.velocidadeAtual + 10) <= this.velocidadeMaxima)
+                    this.velocidadeAtual += 10;
+                else
+                    this.velocidadeAtual = this.VelocidadeMaxima;
+            } else
+            {
+                Console.WriteLine("O carro precisa estar ligado para acelerar...");
+            }
 
+        }
+
+        public void Frear()
+        {
+            if ((this.velocidadeAtual - 10) >= 0)
+                this.velocidadeAtual -= 10;
+            else
+                this.velocidadeAtual = 0;
         }
     }
 }
