@@ -51,5 +51,10 @@ namespace ExemploEncapsulamento
             else
                 Console.WriteLine("O carro já está desligado!!");           
         }
+
+        public void Acelerar()
+        {
+
+        }
     }
 }
