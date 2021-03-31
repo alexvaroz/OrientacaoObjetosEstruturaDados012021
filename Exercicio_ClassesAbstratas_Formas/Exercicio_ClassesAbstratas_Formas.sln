@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_ClassesAbstratas_Formas", "Exercicio_ClassesAbstratas_Formas\Exercicio_ClassesAbstratas_Formas.csproj", "{9C3C4578-7E07-405F-B847-50AFC1253397}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C3C4578-7E07-405F-B847-50AFC1253397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3C4578-7E07-405F-B847-50AFC1253397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3C4578-7E07-405F-B847-50AFC1253397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3C4578-7E07-405F-B847-50AFC1253397}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4905F51C-686F-41AC-98A2-6C050A0F6A23}
+	EndGlobalSection
+EndGlobal
