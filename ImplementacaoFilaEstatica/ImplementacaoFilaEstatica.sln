@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementacaoFilaEstatica", "ImplementacaoFilaEstatica\ImplementacaoFilaEstatica.csproj", "{FB99A81E-85D6-4F7A-A9F9-F0C3F326CBA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB99A81E-85D6-4F7A-A9F9-F0C3F326CBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB99A81E-85D6-4F7A-A9F9-F0C3F326CBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB99A81E-85D6-4F7A-A9F9-F0C3F326CBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB99A81E-85D6-4F7A-A9F9-F0C3F326CBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7368E959-EEC5-45BB-87AB-55F3EDDB3BE7}
+	EndGlobalSection
+EndGlobal
