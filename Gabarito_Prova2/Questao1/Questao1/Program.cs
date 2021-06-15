@@ -25,17 +25,29 @@ namespace Questao1
                 "tudo o que você pode relacionar ao universo dos jogos, porém aplicada em outros " +
                 "contextos, como a educação e, é claro, o mundo empresarial.";
 
-
+            List<string> relacaoPalavrasComQuatroLetras = ListarPalavrasComQuatroLetrasEmTexto(texto);
+            Console.WriteLine($" O texto possui {relacaoPalavrasComQuatroLetras.Count} palvras com 4 letras.");
+            foreach (var item in relacaoPalavrasComQuatroLetras)
+            {
+                Console.Write($"{item}    ");
+            }
+            Console.ReadLine();
 
         }
 
         static List<string> ListarPalavrasComQuatroLetrasEmTexto(string texto)
         {
-            List<string> listaPalavras = new List<string>();
-
-
-
-            return listaPalavras;
+            HashSet<string> relacaoPalavras = new HashSet<string>();
+            
+            string[] palavras = texto.Split(' ', ',', '.', '"');
+            foreach (var item in palavras)
+            {
+                if (item.Length == 4)
+                {
+                    relacaoPalavras.Add(item.ToLower());
+                }
+            }
+            return relacaoPalavras.ToList();
         }
     }
 }
