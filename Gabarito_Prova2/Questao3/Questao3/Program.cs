@@ -24,13 +24,14 @@ namespace Questao3
         static void Main(string[] args)
         {
             string[] criancas = { "Ana", "Bob", "Carol", "Duda", "Eva",  "Franco" };
-            int intervalo = 7;
-            Console.WriteLine($"O vencedor do jogo é {JogarBatataQuente(criancas, intervalo)}");
+            //int intervalo = 7;
+            Console.WriteLine($"O vencedor do jogo é {JogarBatataQuente(criancas)}");
             Console.ReadLine();
         }
 
-        static string JogarBatataQuente(string[] criancas, int intervalo)
+        static string JogarBatataQuente(string[] criancas)
         {
+            Random rnd = new Random();
             Queue<string> filaCriancas = new Queue<string>();
             for (int i = 0; i < criancas.Length; i++)
             {
@@ -39,7 +40,7 @@ namespace Questao3
 
             while (filaCriancas.Count > 1)
             {
-                for (int i = 0; i < intervalo; i++)
+                for (int i = 0; i < rnd.Next(10); i++)
                 {
                     filaCriancas.Enqueue(filaCriancas.Dequeue());
                 }
